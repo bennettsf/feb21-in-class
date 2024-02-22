@@ -1,3 +1,12 @@
+# Nested Button Clicks
+![](https://i.imgur.com/ZJJtJ0G.gif)
+
+# Custom Alert Buttons
+![](https://i.imgur.com/9hXQKux.gif)
+
+# Dynamic Alert Buttons
+![](https://i.imgur.com/8l5rdMY.gif)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
