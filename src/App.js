@@ -1,6 +1,6 @@
 import "./App.css";
 import { Toolbar } from "./components/AlertButton";
-import { Toolbar2 } from "./components/AlertButton2.js";
+import { ToolbarMapping } from "./components/AlertButtonMapping.js";
 import NestedButtons from "./components/NestedButtons.js";
 
 function App() {
@@ -13,8 +13,8 @@ function App() {
       <Toolbar />
 
       <h1>Dynamic Alert Buttons with Props</h1>
-      <Toolbar2 />
-      
+      <ToolbarMapping />
+
     </div>
   );
 }

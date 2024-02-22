@@ -17,12 +17,12 @@ export function Toolbar() {
     <>
         <AlertButton 
             message='first message'
-            children='child 1'
+            children='Alert 1'
         />
         
         <AlertButton 
             message='second message'
-            children='child 2'
+            children='Alert 2'
         />
     </>
       
