@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Toolbar } from "./components/AlertButton";
+import { Toolbar2 } from "./components/AlertButton2.js";
+import NestedButtons from "./components/NestedButtons.js";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Event Propagation Assignment</h1>
+      <NestedButtons />
+
+      <h1>Custom Alert Buttons</h1>
+      <Toolbar />
+
+      <h1>Dynamic Alert Buttons with Props</h1>
+      <Toolbar2 />
+      
     </div>
   );
 }
